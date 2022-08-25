@@ -2,6 +2,7 @@ from flask import Flask, render_template, jsonify, request
 import pickle
 import pandas as pd 
 import numpy as np
+import streamlit as st
 
 app = Flask(__name__)
 
